@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+button {
+  border: 1px solid #000;
+  background: lightgray;
+}
