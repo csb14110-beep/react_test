@@ -53,11 +53,11 @@ nav .nav-wrapper a {
   color: #fff;
 }
 
-nav .info-wrapper {
+/*nav .info-wrapper {
   display: flex;
   align-items: center;
   gap: 8px;
-}
+} */
 
 /* nav .info-wrapper a {
   color: #fff;
