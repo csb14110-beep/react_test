@@ -6,7 +6,12 @@ export default {
   ],
   darkMode: "class", // 다크 모드 활성화
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ibm': ['"IBM Plex Mono"', 'monospace'],
+        'reem': ['"Reem Kufi"', 'sans-serif'],
+      },
+    },
     screens: {
       mobile: '501px',
       sm: '640px',

@@ -1,8 +1,12 @@
 import React from 'react'
+import Features from '../Home/Features'
+
 
 const index = () => {
   return (
-    <div>Features</div>
+    <div className='features-page'>
+     <Features /> 
+        </div>
   )
 }
 

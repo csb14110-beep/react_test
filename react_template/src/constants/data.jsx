@@ -12,8 +12,11 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+import video1 from "../assets/video1.mp4";
+import video2 from "../assets/video2.mp4";
+
 export const navItems = [
-  { label: "Home", to: "/home" },
+  { label: "Home", to: "/" },
   { label: "Features", to: "/features" },
   // { label: 'Workflow', to: '/workflow' },
   // { label: 'Pricing', to: 'pricing' },
@@ -187,3 +190,8 @@ export const heroLinks = [
   { to: "start-for-free", text: "start for free" },
   { to: "documentation", text: "documentation" },
 ];
+
+export const videos = [
+  {video: video1},
+  {video: video2},
+]

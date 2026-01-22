@@ -40,7 +40,6 @@ nav .logo-wrapper .round-dot {
 }
 
 nav .logo-wrapper .logo-text {
-  color: #fff;
   font-size: 1.125rem;
 }
 
@@ -49,9 +48,9 @@ nav .logo-wrapper .logo-text {
   gap: 12px;
 } */
  
-nav .nav-wrapper a {
+/* nav .nav-wrapper a {
   color: #fff;
-}
+} */
 
 /*nav .info-wrapper {
   display: flex;
