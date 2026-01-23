@@ -4,6 +4,7 @@ import Header from './components/common/Header'  // 헤더 컴포넌트
 import {BrowserRouter, Routes, Route} from 'react-router-dom'  // 라우터 관련 컴포넌트
 import Home from './components/Home'  // 홈 페이지
 import Features from './components/Features'  // 기능 페이지
+import Footer from './components/common/Footer'
 
 
 // BrowserRouter: 브라우저에 이동을 컨트롤 하는 전체 컴포넌트 -> 최상위 부모
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
       
     </>
